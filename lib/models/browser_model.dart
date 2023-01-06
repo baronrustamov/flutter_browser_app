@@ -24,8 +24,8 @@ class BrowserSettings {
 
   BrowserSettings(
       {this.searchEngine = GoogleSearchEngine,
-      this.homePageEnabled = false,
-      this.customUrlHomePage = "",
+      this.homePageEnabled = true,
+      this.customUrlHomePage = "https://search.portalmetaverse.space",
       this.debuggingEnabled = false});
 
   BrowserSettings copy() {

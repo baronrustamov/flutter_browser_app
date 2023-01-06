@@ -72,7 +72,7 @@ class FlutterBrowserApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Browser',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Color.fromARGB(255, 84, 3, 141),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/',
